@@ -2,8 +2,12 @@
   "env": {
     "development": {
       "application/javascript": {
-        "presets": [
-          ["env", { "targets": { "electron": "1.8.2-beta.3" } }],
+        "presets": [[
+            "env", {
+              "targets": {
+                "electron": "1.8.2-beta.3"
+              }
+            }],
           "react",
           "react-native"
         ],
@@ -13,8 +17,12 @@
     },
     "production": {
       "application/javascript": {
-        "presets": [
-          ["env", { "targets": { "electron": "1.8.2-beta.3" } }],
+        "presets": [[
+          "env", {
+            "targets": {
+              "electron": "1.8.2-beta.3"
+            }
+          }],
           "react",
           "react-native"
         ],
