@@ -1,0 +1,9 @@
+{
+  "plugins": [
+		"react-native-web/babel",
+		"react-module-hot-loader/babel"
+  ],
+  "presets": [
+    "react-native"
+  ]
+}

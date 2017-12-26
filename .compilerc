@@ -5,8 +5,9 @@
         "presets": [
           ["env", { "targets": { "electron": "1.8.2-beta.3" } }],
           "react",
+          "react-native"
         ],
-        "plugins": ["transform-async-to-generator", "transform-es2015-classes", "react-hot-loader/babel"],
+        "plugins": ["transform-runtime", "react-native-web/babel", "react-hot-loader/babel"],
         "sourceMaps": "inline"
       }
     },
@@ -15,8 +16,9 @@
         "presets": [
           ["env", { "targets": { "electron": "1.8.2-beta.3" } }],
           "react",
+          "react-native"
         ],
-        "plugins": ["transform-async-to-generator", "transform-es2015-classes"],
+        "plugins": ["transform-runtime", "react-native-web/babel"],
         "sourceMaps": "none"
       }
     }
