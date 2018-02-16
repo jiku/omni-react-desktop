@@ -5,13 +5,13 @@
         "presets": [[
             "env", {
               "targets": {
-                "electron": "1.8.2-beta.3"
+                "electron": "1.8.2"
               }
             }],
           "react",
           "react-native"
         ],
-        "plugins": ["transform-runtime", "react-native-web/babel", "react-hot-loader/babel"],
+        "plugins": ["transform-runtime", "react-native-web", "react-hot-loader/babel"],
         "sourceMaps": "inline"
       }
     },
@@ -20,13 +20,13 @@
         "presets": [[
           "env", {
             "targets": {
-              "electron": "1.8.2-beta.3"
+              "electron": "1.8.2"
             }
           }],
           "react",
           "react-native"
         ],
-        "plugins": ["transform-runtime", "react-native-web/babel"],
+        "plugins": ["transform-runtime", "react-native-web"],
         "sourceMaps": "none"
       }
     }
