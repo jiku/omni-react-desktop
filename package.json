@@ -1,6 +1,6 @@
 {
-  "name": "desktop",
-  "productName": "desktop",
+  "name": "@jiku/omni-react-desktop",
+  "productName": "@jiku/omni-react-desktop",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
